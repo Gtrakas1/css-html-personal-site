@@ -59,22 +59,27 @@ hr{
 
 .first-cloud{    
     position: absolute;
-    right: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 550px;
+    right: 0;
     top: 200px;
-    
+    text-align: center;
     
         
     }
     .second-cloud {
         position: absolute;
-        left: 400px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        right: 550px;
         top: 400px;
-        
         
         
     }
     .river-bed{
-        height: 200px;
+        height: auto;
         width: 100%
     }
 
