@@ -59,22 +59,13 @@ hr{
 
 .first-cloud{    
     position: absolute;
-    margin-right: auto;
-    margin-left: auto;
-    left: 550px;
-    right: 0;
-    top: 200px;
-    text-align: center;
-    
-        
+   right: 400px;
+   top: 200px; 
     }
     .second-cloud {
         position: absolute;
-        margin-right: auto;
-        margin-left: auto;
-        left: 0;
-        right: 550px;
-        top: 400px;
+        left: 400px;
+        top: 350px;
         
         
     }
@@ -144,4 +135,16 @@ hr{
 
     .copyright{
         color: #EAF6F6;
+    }
+
+    @media (max-width: 1256px){
+        .first-cloud {
+          visibility: hidden;
+          position: static;
+        }
+
+        .second-cloud{
+            visibility: hidden;
+            position: static;
+        }
     }
